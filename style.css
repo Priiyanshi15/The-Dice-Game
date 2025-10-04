@@ -33,7 +33,7 @@ h1{
         display : block;
     }
 
-    .cotainer{
+    .container{
         display: block;
         width: 100%;
     }
@@ -41,4 +41,5 @@ h1{
     .box{
         display : block;
     }
+
 }
