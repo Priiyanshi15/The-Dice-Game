@@ -1,0 +1,44 @@
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 4rem;
+    font-family: 'Almendra';
+    color: blue;
+    margin: 5rem;
+}
+
+.play{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Raleway';
+    color: green;
+    font-size: 20px;
+}
+
+@media (max-width : 1000px) {
+    .play{
+        display : block;
+    }
+
+    .cotainer{
+        display: block;
+        width: 100%;
+    }
+
+    .box{
+        display : block;
+    }
+}
